@@ -1,0 +1,25 @@
+{
+  "name": "azhar-donation-fund-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.13.1",
+    "leaflet": "^1.9.4",
+    "pinia": "^3.0.3",
+    "universal-cookie": "^8.1.2",
+    "vue": "^3.5.24",
+    "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.4",
+    "@vitejs/plugin-vue": "^6.0.6",
+    "tailwindcss": "^4.1.16",
+    "vite": "^8.0.10"
+  }
+}
